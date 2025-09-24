@@ -1,0 +1,33 @@
+/* ==========================================================================
+                            700px and less
+   ========================================================================== */
+
+@media (max-width: 700px) {
+  .hero-section__heading {
+    font-size: 1.6rem;
+  }
+
+  .hero-section__desc {
+    font-size: 0.9rem;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+}
+
+/* ==========================================================================
+                            375px and less
+   ========================================================================== */
+
+@media (max-width: 375px) {
+  .hero-section {
+    background-image: url(../images/bg-header-mobile.png);
+  }
+}

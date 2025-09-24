@@ -1,3 +1,80 @@
 * {
   font-family: var(--font-family-base);
 }
+
+/* ==========================================================================
+                            Hero Section
+   ========================================================================== */
+
+.hero-section {
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem; /* For smaller screens */
+}
+
+.hero-section__logo {
+  margin-bottom: 2.5rem;
+}
+
+.hero-section__heading {
+  font-weight: 600;
+  color: var(--color-gray-700);
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.hero-section__desc {
+  font-weight: 400;
+  color: var(--color-gray-500);
+  max-width: 43rem;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+}
+
+/* Button group & button styles/hover effects
+   ========================================================================== */
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn {
+  border-radius: 2rem;
+  border: none;
+  color: #fff;
+  background-color: black;
+  width: 16rem;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-download-green {
+  background-color: var(--color-green);
+  box-shadow: 0px 5px 10px hsla(0, 0%, 0%, 0.226);
+}
+
+.btn-download-blue {
+  background-color: var(--color-blue);
+  box-shadow: 0px 5px 10px hsla(0, 0%, 0%, 0.226);
+}
+
+.btn-download-green:hover {
+  box-shadow: 0px 5px 15px hsla(171, 67%, 32%, 0.637);
+  background-color: hsla(171, 66%, 44%, 0.877);
+}
+
+.btn-download-blue:hover {
+  background-color: hsla(233, 100%, 69%, 0.877);
+  box-shadow: 0px 5px 15px hsla(234, 51%, 53%, 0.637);
+}
