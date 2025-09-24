@@ -1,0 +1,9 @@
+:root {
+  --font-family-base: "Bai Jamjuree", sans-serif;
+
+  --color-green: hsl(171, 66%, 44%);
+  --color-blue: hsl(233, 100%, 69%);
+
+  --color-gray-500: hsl(201, 11%, 66%);
+  --color-gray-700: hsl(210, 10%, 33%);
+}
